@@ -63,6 +63,7 @@ body {
     color: white;
     text-align: center;
     margin-top: 94px;
+    line-height: 35px;
 }
 
 .step_1 button {
@@ -83,3 +84,80 @@ body {
 }
 
 /*Step_1 endblock*/
+
+/*Step_2 block*/
+.step_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 602px;
+    text-align: center;
+}
+
+.step_2_info {margin-right: 10%}
+
+.step_2_info h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.step_2_info p {
+  font-size: 16px;
+  max-width: 403px;
+  margin-top: 26px;
+  line-height: 22px;
+}
+
+#slider {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 528px;
+    height: 396px;
+}
+  
+  #slider button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.7);
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+  
+  #slider button:hover {
+    background-color: rgba(128, 128, 128, 0.9);
+}
+  
+  #sliderphoto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    /* gap: 20px; */
+    transform: translateX(-0px);
+}
+  
+  
+  #button_left {
+    position: absolute;
+    top: 50%;
+    left: 33.5%;
+    z-index: 1;
+}
+  
+  #button_right {
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    z-index: 1;
+}
+
+
+  
+/*Step_2 endblock*/
