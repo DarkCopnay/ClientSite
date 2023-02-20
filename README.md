@@ -1,1 +1,1 @@
-# BuySite on DarkCopnay
+# BuySite by DarkCopnay
