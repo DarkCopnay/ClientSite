@@ -8,7 +8,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
 }
 
 /*topnav block*/
@@ -40,7 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 664px;
-    background-image: url(/BuySite/img/bnbn.jpg);
+    background-image: url(/img/bnbn.jpg);
     background-repeat: no-repeat;
     background-position: 0 -350px;
     background-size: 100%;
@@ -158,6 +159,103 @@ body {
     z-index: 1;
 }
 
-
-  
 /*Step_2 endblock*/
+
+/*Download block*/
+.third_box{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.box_1{
+width: 400px;
+height: 220px;
+
+}
+.box_2{
+width: 400px;
+height: 250px;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+
+}
+p{
+	font-size: 20px;
+}
+.down{
+	position: relative;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	background: #468AC9;
+	left: 15%;
+	top: 20%;
+	padding-top: 10px;
+	font-size: 20px;
+}
+/* Download endblock*/
+
+/* Footer block*/
+.foot{
+	/* width: 100%; */
+  display: flex;
+  flex-direction: column;
+	height: 500px;
+	background: #333333;
+	padding-top: 30px;
+	line-height: 1.5;
+	text-align: center;
+}
+.foot_pos{
+	display: flex;
+	justify-content: space-around;
+}
+.text_1{
+width: 600px;
+height: 50px;
+padding-top: 40px;
+}
+.text_2{
+width: 400px;
+height: 120px;
+}
+.text_foot{
+	color: white;
+}
+.pol_kon{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+.line{
+  align-self: center;
+  justify-self: center;
+	width: 90%;
+  height: 2px;
+  background-color: gray;
+  position: relative;
+  top: 25%;
+
+}
+.last_img{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	top: 241px;
+}
+.soc_seti{
+	position: relative;
+	left: 15%;
+}
+.logo_foot{
+	position: relative;
+	right: 15%;
+}
+/* Footer endblock*/
