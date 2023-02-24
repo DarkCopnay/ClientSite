@@ -161,6 +161,7 @@ body {
 
   
 /*Step_2 endblock*/
+/* Download block div */
 .third_box{
 	width: 100%;
 	height: 400px;
@@ -197,6 +198,9 @@ p{
 	padding-top: 10px;
 	font-size: 20px;
 }
+/* download end block*/
+
+/* footer block*/
 .foot{
 	width: 100%;
 	height: 300px;
@@ -251,3 +255,4 @@ height: 120px;
 	position: relative;
 	right: 15%;
 }
+/* footer end block*/
