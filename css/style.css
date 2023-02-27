@@ -8,7 +8,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
 }
 
 /*topnav block*/
@@ -40,7 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 664px;
-    background-image: url(/BuySite/img/bnbn.jpg);
+    background-image: url(/img/bnbn.jpg);
     background-repeat: no-repeat;
     background-position: 0 -350px;
     background-size: 100%;
@@ -158,6 +159,109 @@ body {
     z-index: 1;
 }
 
-
-  
 /*Step_2 endblock*/
+
+/*Download block*/
+.third_box{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.box_1{
+width: 400px;
+height: 220px;
+
+}
+.box_2{
+width: 400px;
+height: 250px;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+
+}
+p{
+	font-size: 20px;
+}
+.down{
+	position: relative;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	background: #468AC9;
+	left: 15%;
+	top: 20%;
+	padding-top: 10px;
+	font-size: 20px;
+}
+/* Download endblock*/
+
+/*Footer block*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  background-color: #333333;
+}
+
+.footer_up {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 1170px;
+  height: 200px;
+  border-bottom: 1px solid gray;
+}
+
+.footer_up_info_left {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer_up_info_right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.footer_up_info_left a {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.footer_up_info_right h2 {
+  font-size: 18px;
+  color: white;
+}
+
+.footer_up_info_right a {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer_down {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.footer_down_social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 990px;
+  gap: 4px;
+}
+
+/* Footer endblock*/
