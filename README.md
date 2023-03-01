@@ -1,1 +1,1 @@
-# BoughtSite by DarkCopnay
+# ClientSite by DarkCopnay
