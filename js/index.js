@@ -9,4 +9,4 @@ let sliderInterval = setInterval(function() {
   if (list_position == 1412){
     list_position -= 2118;
   }
-}, 4000);
+}, 4500);

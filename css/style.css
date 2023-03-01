@@ -41,7 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 664px;
-    background-image: url(/img/bnbn.jpg);
+    background-image:url(/img/bnbn.jpg);
     background-repeat: no-repeat;
     background-position: 0 -350px;
     background-size: 100%;
@@ -77,12 +77,11 @@ body {
     font-weight: 700;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
     transition: 0.5s ease;
 }
 
-.step_1 button:hover {
-    background-color: #b53037;
-}
+.step_1 button:hover {background-color: #b53037;}
 
 /*Step_1 endblock*/
 
@@ -162,42 +161,44 @@ body {
 /*Step_2 endblock*/
 
 /*Download block*/
-.third_box{
+.third_box {
 	width: 100%;
 	height: 400px;
 	display: flex;
+  flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
 }
-.box_1{
-width: 400px;
-height: 220px;
+.third_box p {
+  max-width: 391px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 86px;
+}
+.third_box a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 45px;
+  background-color: #4986bf;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
 
+.third_box_left, .third_box_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.box_2{
-width: 400px;
-height: 250px;
 
-}
-a{
-	text-decoration: none;
-	color: white;
-
-}
-p{
-	font-size: 20px;
-}
-.down{
-	position: relative;
-	width: 250px;
-	height: 40px;
-	text-align: center;
-	background: #468AC9;
-	left: 15%;
-	top: 20%;
-	padding-top: 10px;
-	font-size: 20px;
-}
 /* Download endblock*/
 
 /*Footer block*/
@@ -263,5 +264,24 @@ p{
   margin-left: 990px;
   gap: 4px;
 }
+
+.footer_up_info_left a {
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.footer_up_info_left a:hover {color: rgb(162, 160, 160);}
+
+.footer_up_info_right a {
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.footer_up_info_right a:hover {color: rgb(162, 160, 160);}
 
 /* Footer endblock*/
