@@ -91,22 +91,23 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 602px;
+    height: 675px;
     text-align: center;
 }
 
-.step_2_info {margin-right: 10%}
 
 .step_2_info h2 {
   font-size: 36px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
-.step_2_info p {
+.step_2_info  p {
   font-size: 16px;
   max-width: 403px;
-  margin-top: 26px;
   line-height: 22px;
+  margin-left: 55px;
+  margin-top: 20px;
 }
 
 #slider {
@@ -117,22 +118,6 @@ body {
     height: 396px;
 }
   
-  #slider button {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: none;
-    background-color: rgba(128, 128, 128, 0.7);
-    font-size: 18px;
-    color: white;
-    cursor: pointer;
-    transition: 0.5s ease;
-}
-  
-  #slider button:hover {
-    background-color: rgba(128, 128, 128, 0.9);
-}
-  
   #sliderphoto {
     display: flex;
     flex-direction: row;
@@ -140,24 +125,7 @@ body {
     justify-content: center;
     transition: 0.5s ease;
     /* gap: 20px; */
-    transform: translateX(-0px);
 }
-  
-  
-  #button_left {
-    position: absolute;
-    top: 50%;
-    left: 33.5%;
-    z-index: 1;
-}
-  
-  #button_right {
-    position: absolute;
-    top: 50%;
-    left: 63%;
-    z-index: 1;
-}
-
 /*Step_2 endblock*/
 
 /*Download block*/

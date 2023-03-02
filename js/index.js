@@ -4,9 +4,9 @@ let button_right = document.getElementById("button_right");
 let list_position = 0;
 
 let sliderInterval = setInterval(function() {
-  sliderphoto.style.transform = `translateX(-${list_position += 706}px)`;
-
-  if (list_position == 1412){
-    list_position -= 2118;
+  sliderphoto.style.transform = `translateX(-${list_position += 600}px)`;
+  
+  if (list_position == 1200){
+    list_position -= 2400;
   }
 }, 4500);
