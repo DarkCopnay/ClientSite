@@ -253,3 +253,21 @@ body {
 .footer_up_info_right a:hover {color: rgb(162, 160, 160);}
 
 /* Footer endblock*/
+
+/*max-width block*/
+
+@media (max-width: 425px) {
+  
+  .topnav img {
+    width: 47.5px;
+    height: 32px;
+  }
+
+  .topnav_navigation a {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+  }
+}
