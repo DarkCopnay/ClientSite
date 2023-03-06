@@ -266,8 +266,21 @@ body {
   .topnav_navigation a {
     padding: 0 10px;
     font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
   }
 }
+
+@media (max-width: 375px) {
+  .topnav_navigation a {
+    padding: 0 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .topnav_navigation a {
+    padding: 0 8px;
+    font-size: 10px;
+  }
+}
+
+/*max-width endblock*/
