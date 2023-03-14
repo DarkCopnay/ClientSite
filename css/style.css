@@ -32,6 +32,31 @@ body {
     color: black;
 }
 
+#topnav_dropmenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 0; /*150px*/
+  gap: 10px;
+  background-color: whitesmoke;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+
+#topnav_dropmenu a {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+#button_dropmenu {
+  display: none;
+  border: none;
+  background: none;
+}
+
 /*topnav endblock*/
 
 /*Step_1 block*/
@@ -266,8 +291,28 @@ body {
   .topnav_navigation a {
     padding: 0 10px;
     font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
   }
 }
+
+@media (max-width: 375px) {
+  .topnav_navigation a {
+    padding: 0 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .topnav_navigation a {
+    padding: 0 8px;
+    font-size: 10px;
+  }
+
+  .topnav_navigation {display: none;}
+
+  #button_dropmenu {
+    display: block;
+  }
+  
+}
+
+/*max-width endblock*/
